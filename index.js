@@ -37,12 +37,4 @@ program.parse();
 
 const options = program.opts();
 invokeAction(options)
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "rsKkOQUi80UsgVPCcLZZW" });
-// invokeAction({
-//   action: "add",
-//   name: "Nazar Yaremiy",
-//   email: "yaremiy.nazar@gmail.com",
-//   phone: "063-846-03-35",
-// });
-// invokeAction({ action: "remove", id: "yJG9ruSIIxCTAI_7_5JXu" });
+
